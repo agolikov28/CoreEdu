@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">HW#2</string>
+
+    <string name="selected_item">Selected item:</string>
+    <string-array name="States">
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+
+    <string-array name="Birds">
+        <item>Northern Flicker</item>
+        <item>Willow Ptarmigan</item>
+        <item>Cactus Wren</item>
+        <item>Northern Mockingbird</item>
+        <item>California Quail</item>
+        <item>Lark Bunting</item>
+        <item>American Robin</item>
+        <item>Delaware Blue Hen</item>
+        <item>Northern Mockingbird</item>
+        <item>Brown Thrasher</item>
+        <item>Nene</item>
+        <item>Mountain Bluebird</item>
+        <item>Northern Cardinal</item>
+        <item>Northern Cardinal</item>
+        <item>American Goldfinch</item>
+        <item>Western Meadowlark</item>
+        <item>Northern Cardinal</item>
+        <item>Brown Pelican</item>
+        <item>Black-capped Chickadee</item>
+        <item>Baltimore Oriole</item>
+        <item>Black-capped Chickadee</item>
+        <item>American Robin</item>
+        <item>Common Loon</item>
+        <item>Northern Mockingbird</item>
+        <item>Eastern Bluebird</item>
+        <item>Western Meadowlark</item>
+        <item>Western Meadowlark</item>
+        <item>Mountain Bluebird</item>
+        <item>Purple Finch</item>
+        <item>American Goldfinch</item>
+        <item>Greater Roadrunner</item>
+        <item>Eastern Bluebird</item>
+        <item>Northern Cardinal</item>
+        <item>Western Meadowlark</item>
+        <item>Northern Cardinal</item>
+        <item>Scissor-tailed Flycatcher</item>
+        <item>Western Meadowlark</item>
+        <item>Ruffed Grouse</item>
+        <item>Rhode Island Red (Chicken)</item>
+        <item>Carolina Wren</item>
+        <item>Ring-necked Pheasant</item>
+        <item>Northern Mockingbird</item>
+        <item>Northern Mockingbird</item>
+        <item>California Gull</item>
+        <item>Hermit Thrush</item>
+        <item>Northern Cardinal</item>
+        <item>American Goldfinch</item>
+        <item>Northern Cardinal</item>
+        <item>American Robin</item>
+        <item>Western Meadowlark</item>
+    </string-array>
+
+    <string-array name="Trees">
+        <item>Southern Longleaf Pine</item>
+        <item>Sitka Spruce</item>
+        <item>Palo Verde</item>
+        <item>Pine</item>
+        <item>California Redwood</item>
+        <item>Colorado Blue Spruce</item>
+        <item>Charter Oak (a.k.a White Oak)</item>
+        <item>American Holly</item>
+        <item>Sabal Palm</item>
+        <item>Live Oak</item>
+        <item>Kukui (a.k.a Candlenut)</item>
+        <item>Western White Pine</item>
+        <item>White Oak</item>
+        <item>Tulip Poplar</item>
+        <item>Oak</item>
+        <item>Cottonwood</item>
+        <item>Tulip Poplar</item>
+        <item>Bald Cypress</item>
+        <item>Eastern White Pine</item>
+        <item>White Oak</item>
+        <item>American Elm</item>
+        <item>Eastern White Pine</item>
+        <item>Red Pine</item>
+        <item>Magnolia</item>
+        <item>Flowering Dogwood</item>
+        <item>Ponderosa Pine</item>
+        <item>Cottonwood</item>
+        <item>Bristlecone Pine</item>
+        <item>White Birch</item>
+        <item>Northern Red Oak</item>
+        <item>Piñon Pine</item>
+        <item>Sugar Maple</item>
+        <item>Pine</item>
+        <item>American Elm</item>
+        <item>Ohio Buckeye</item>
+        <item>Redbud</item>
+        <item>Douglas Fir</item>
+        <item>Eastern Hemlock</item>
+        <item>Red Maple</item>
+        <item>Sabal Palm</item>
+        <item>Black Hills Spruce</item>
+        <item>Tulip Poplar</item>
+        <item>Pecan Tree</item>
+        <item>Quaking Aspen</item>
+        <item>Sugar Maple</item>
+        <item>Flowering Dogwood</item>
+        <item>Western Hemlock</item>
+        <item>Sugar Maple</item>
+        <item>Sugar Maple</item>
+        <item>Plains Cottonwood</item>
+    </string-array>
+
+    <string-array name="Subjects">
+        <item>Political History</item>
+        <item>Social History</item>
+        <item>Economic History</item>
+        <item>Diplomatic History</item>
+        <item>Art History</item>
+        <item>Food History</item>
+        <item>History of Science and Medicine</item>
+        <item>Cultural History</item>
+        <item>Women’s History</item>
+        <item>Intellectual History</item>
+        <item>Environmental History</item>
+    </string-array>
+
+    <string-array name="Desc">
+        <item>the history of political systems.</item>
+        <item>the history of people and societies.</item>
+        <item>the history of the economies and economic processes.</item>
+        <item>the history of international relations.</item>
+        <item>the history of various forms of art.</item>
+        <item>the history of food cuisines.</item>
+        <item>the history of medical science.</item>
+        <item>the history of world cultures.</item>
+        <item>the history of feminism.</item>
+        <item>the evolution of ideas and famous thinkers.</item>
+        <item>the history of our natural environment and its diverse components.</item>
+    </string-array>
+
+
+ <string name="hyperlink">Learn more about Android app development at\n<a href="https://native-land.ca/">NativeLand.com</a></string>
+
+
+</resources>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.coreedu.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/globebg"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Type in your ZipCode:"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/zipCode"
+        android:layout_width="167dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="95dp"
+        android:background="@color/thirdBlue"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="@color/thirdBlue"
+        android:text="Enter"
+        android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/listEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:visibility="invisible"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/event1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="180dp"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="21dp"
+        android:textStyle="bold"/>
+<!--    android:text="> Learn about Indigenous land in your area: Visit native-land.ca to find out more.\n\n\n> Volunteer to teach Python at your local library: Visit technifusion.org to sign up today!-->
+<!--    \n\n\n> Attend the Historical Society's seminar and info session on the Colonized land in your area, and learn how you can give back to the communities in need-->
+<!--    \n\n\n> Join the Historic Preservation Group as they take on advocacy work: \nVisit preservationdirectory.com and start advocating!"-->
+
+
+</RelativeLayout>

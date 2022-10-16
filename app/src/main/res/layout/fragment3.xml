@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.coreedu.IntroActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/progressbg"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="Subjects Studied"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Political History"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <ProgressBar
+        android:id="@+id/histBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:scaleY="6"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Women's History"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <ProgressBar
+        android:id="@+id/histBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="160dp"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:scaleY="6"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Cultural History"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <ProgressBar
+        android:id="@+id/histBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="280dp"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:scaleY="6"
+        />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:text="try a new snippet" />
+
+
+</RelativeLayout>
